@@ -1,8 +1,9 @@
--- =========================================
---  SET YOUR LOCAL FILE PATH HERE BEFORE RUNNING
--- =========================================
+-- ================================================
+-- LOAD CSV DATA INTO SQL SERVER
+-- NOTE: Before running, update @dataPath to your local folder
+-- ================================================
 
-DECLARE @dataPath VARCHAR(500) = DECLARE @dataPath VARCHAR(500) = '<<< UPDATE LOCAL PATH HERE >>>';
+DECLARE @dataPath VARCHAR(500) = 'C:\path\to\your\csv\folder\';  
 
 
 -- Use CRLF or 0x0a depending on how the CSVs were saved.
